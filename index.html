@@ -1,420 +1,270 @@
-<!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="font/material-design-icons/icon.css" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css"  media="screen,projection"/>
-	  <meta name="description" content="Diosgrafis Apps Showcase and Portfolio Android and Mobile Apps" />
-	  <meta name="keywords" content="diosgrafis, diosgrafisapps , cordova , android , android apps , aplikasi dari diosgrafis , aplikasi mobile" />
+<!doctype html>
 
-	  <title>Diosgrafis Apps</title>
+<html lang="en">
+<head>
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	  <style>
-	  /*html, body{
-		  height: 100%;
-		  /*background-image: url(http://ppcdn.500px.org/75319705/1991f76c0c6a91ae1d23eb94ac5c7a9f7e79c480/2048.jpg) ;*/
-		  background-image: url(img/bnr1.jpg) ;
-			background-position: center center;
-			background-repeat:  no-repeat;
-			background-attachment: fixed;
-			background-size:  cover;
-	  }*/
-	  html, body,div,span{
-		font-family: 'Titillium Web';
-	  }
-    #loading {
-		position: absolute; width: 100%; height: 100%; background: url('loading.gif') no-repeat center center;
-	  }
-	  </style>
-    </head>
+  <meta charset="utf-8">
+  <title>Diosgrafis | Odilio Arys Hafidh Aziz Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/png" href="img/icon.png" />
+	<meta name="description" content="Diosgrafis Apps Showcase and Portfolio Android and Mobile Apps by Odilio Arys Hafidh Aziz"  />
+	<meta name="keywords" content="diosgrafis, diosgrafisapps , cordova , android , android apps , aplikasi dari diosgrafis , aplikasi mobile" />
+	<meta name="author" content="Odilio Arys Hafidh Aziz" />
+	<meta name="copyright" content="Odilio Arys Hafidh Aziz" />
+	<meta name="rating" content="general" />
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow" />
+	<meta name="msnbot" content="index, follow" />
+	<meta name="yahoobot" content="index, follow" />
+	<meta name="bingbot" content="index, follow" />
+	
+<!--Style-->
 
-    <body>
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-      <script type="text/javascript" src="js/jalan.js"></script>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-responsive.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+  
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  
+</head>
 
-    <script type="text/javascript">
-	$(window).ready(function() {
-		$('#loading').hide();
-	});
-       $(document).ready(function(){
-	   
-          // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-          $('.modal-trigger').leanModal();
-        });
-    </script>
-<div id="loading"></div>
-<!-- Menu -->
-	<nav style="background-color: #5397c7;">
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo center responsive" style="font-family: 'Titillium Web'; font-size: 16pt;"><img style="height: 60px;margin-top: 5px;" src="img/logo.png"></a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="fa fa-bars"></i></a>
+<body>
 
-        <ul class="side-nav" id="mobile-demo">
-			<img src="img/bnr1a.png" style="width:100%;"/>
-          <li><a href="http://blogdiosgrafis.blogspot.co.id/" target="_blank"><i class="fa fa-rss"></i> Blog</a></li>
-          <li><a class="modal-trigger" href="#modal1"><i class="fa fa-users"></i> About</a></li>
-		  <li><a href="#">Temukan diosgrafis di </a></li>
-          <li><a href="https://play.google.com/store/apps/dev?id=9000509340861325905" target="_blank"><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="100%"></a></li>
+<!--Preloader-->
 
-
-
-        </ul>
+<div class="preloader" id="preloader">
+    <div class="item">
+      <div class="spinner">
+      </div>
     </div>
-  </nav>
-	<!-- /Menu -->
+</div>
 
-	<!-- Modal Trigger -->
-  <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>-->
+<div class="opacity-nav">
 
-  <!-- Modal Structure -->
-  <div id="modal1" class="modal bottom-sheet">
-    <div class="modal-content">
-		<div class="col s12 m4">
-		  <h4><img src="img/bnr1a.png" style="height: 130px;"/></h4>
-		  <p>Selalu mencari hal baru dalam pengembangan apps dimulai 2012 native kemudian sekarang hybrid apps. (Odilio Hafidh)</p>
-		</div>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-	<!-- <img src="img/banners.png" style="width: 100%;"/> -->
-	 <div class="slider">
-    <ul class="slides" >
-
-	  <li>
-        <img src="slider_images/511689.jpg">
-        <div class="caption left-align">
-		<h5 class="light grey-text text-lighten-3" style="text-shadow: 1px 2px 2px rgb(0, 0, 0); font-family: 'Titillium Web';">Selamat Datang di</h5>
-		  <h3 style="text-shadow: 1px 2px 2px rgb(0, 0, 0); font-size: 27pt; font-family: 'Titillium Web'; ">Diosgrafis</h3>
-
-        </div>
-      </li>
-	  <li>
-        <img src="img/01.jpg">
-        <div class="caption left-align">
-          <h3 style="text-shadow: 1px 2px 2px rgb(0, 0, 0); font-size: 27pt;"></h3>
-          <h5 class="light grey-text text-lighten-3" style="text-shadow: 1px 2px 2px rgb(0, 0, 0);"></h5>
-        </div>
-      </li>
-	  <li>
-        <img src="img/07.jpg">
-        <div class="caption left-align">
-          <h3 style="text-shadow: 1px 2px 2px rgb(0, 0, 0); font-size: 27pt; font-family: 'Titillium Web';">Sejarah Islam Indonesia</h3>
-        <h5 class="light grey-text text-lighten-3" style="text-shadow: 1px 2px 2px rgb(0, 0, 0); font-family: 'Titillium Web';">10K Download</h5>
-        </div>
-      </li>
-
-
+    <ul class="menu-fullscreen">
+      <li><a href="https://odiliohafidh.github.io/">Home</a></li>
+      <li><a href="https://play.google.com/store/apps/dev?id=9000509340861325905">Play Store</a></li>
+      <li><a href="https://www.linkedin.com/in/odilio-aziz-29693263/">LinkedIn</a></li>
+      <li><a href="mailto:odilioarys@gmail.com">Contact</a></li>
     </ul>
+
+</div>
+
+
+  <!--Header-->
+  <header id="fullscreen">
+    
+      <div class="logo" id="full"><a class="ajax-link" href="index.html">diosgrafis</a></div>
+      
+        <div class="menu-index" id="button">
+        <i class="fa fa-bars"></i>
+        </div>
+
+  </header>
+
+  <div class="clear"></div>
+
+  <!--Content-->
+
+  <div class="content" id="ajax-content">
+
+
+        <div class="text-intro" id="site-type">
+
+          <h1>My Portfolio And Showcase</h1>
+          <h1 class="typewrite"><span>Mobile</span></h1>
+		  <a href="https://play.google.com/store/search?q=diosgrafis&c=apps"><img src="img/google-play-badge.png" style="width: 150px;"/></a>
+		  <p>Selamat Datang di Showcase dan Portfolio Odilio Aziz</p>
+		  
+        </div>
+
+
+  <!--Portfolio grid-->
+
+  <ul class="portfolio-grid">
+
+    
+    <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+      <img src="img/01.jpg">
+        <a class="ajax-link" href="http://bit.ly/masterofcemist">  
+          <div class="grid-hover">
+            <h1>Master Of Chemist</h1>
+            <p>Android Apps</p>
+          </div>
+        </a>  
+    </li>
+	
+	
+	<li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+      <img src="img/02.jpg">
+        <a class="ajax-link" href="https://play.google.com/store/apps/details?id=com.ngatvdevilmnt.niagatv">  
+          <div class="grid-hover">
+            <h1>Niaga TV </h1>
+            <p>Android Apps</p>
+          </div>
+        </a>  
+    </li>
+	
+	
+	<li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+      <img src="img/03.jpg">
+        <a class="ajax-link" href="https://play.google.com/store/apps/details?id=com.mspnmbldevilumnt.muspenmobiletv">  
+          <div class="grid-hover">
+            <h1>Museum Penerangan Kominfo TV</h1>
+            <p>Android Apps</p>
+          </div>
+        </a>  
+    </li>
+	
+	
+	<li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+      <img src="img/04.jpg">
+        <a class="ajax-link" href="https://play.google.com/store/apps/details?id=com.diosgrafis.snailracer">  
+          <div class="grid-hover">
+            <h1>Snail Racer!</h1>
+            <p>Android Apps</p>
+          </div>
+        </a>  
+    </li>
+	
+	
+	<li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+      <img src="img/05.jpg">
+        <a class="ajax-link" href="https://play.google.com/store/apps/details?id=com.diosgrafis.belfiscahaya">  
+          <div class="grid-hover">
+            <h1>Belajar fisika : Cahaya</h1>
+            <p>Android Apps</p>
+          </div>
+        </a>  
+    </li>
+
+    <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+      <img src="img/06.jpg">
+        <a class="ajax-link" href="https://play.google.com/store/apps/details?id=com.diosgrafis.sjrhpp">  
+          <div class="grid-hover">
+            <h1>Sejarah Penjajahan Jepang Indonesia</h1>
+            <p>Android Apps</p>
+          </div>
+        </a>  
+    </li>
+	
+	<li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+      <img src="img/07.jpg">
+        <a class="ajax-link" href="https://play.google.com/store/apps/details?id=com.diosgrafis.sjrhii">  
+          <div class="grid-hover">
+            <h1>Sejarah Islam Indonesia</h1>
+            <p>Android Apps</p>
+          </div>
+        </a>  
+    </li>
+	
+	<li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+      <img src="img/08.jpg">
+        <a class="ajax-link" href="https://play.google.com/store/apps/details?id=com.diosgrafis.sjrhpi">  
+          <div class="grid-hover">
+            <h1>Sejarah Pergerakan Indonesia</h1>
+            <p>Android Apps</p>
+          </div>
+        </a>  
+    </li>
+	
+	<li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+      <img src="img/09.jpg">
+        <a class="ajax-link" href="https://play.google.com/store/apps/details?id=com.diosgrafis.sejarahkolonial">  
+          <div class="grid-hover">
+            <h1>Sejarah KolonialIndonesia </h1>
+            <p>Android Apps</p>
+          </div>
+        </a>  
+    </li>
+	
+	<li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+      <img src="img/10.jpg">
+        <a class="ajax-link" href="http://bit.ly/1nVeZvy">  
+          <div class="grid-hover">
+            <h1>Stinky Tap </h1>
+            <p>Android Apps</p>
+          </div>
+        </a>  
+    </li>
+	
+	<li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+      <img src="img/11.jpg">
+        <a class="ajax-link" href="https://play.google.com/store/apps/details?id=com.diosgrafis.sejarahhindubudha">  
+          <div class="grid-hover">
+            <h1>Sejarah Hindu Budha Indonesia </h1>
+            <p>Android Apps</p>
+          </div>
+        </a>  
+    </li>
+	
+	<li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+      <img src="img/12.jpg">
+        <a class="ajax-link" href="https://play.google.com/store/apps/details?id=com.diosgrafis.exploreasean">  
+          <div class="grid-hover">
+            <h1>Explore Asean </h1>
+            <p>Android Apps</p>
+          </div>
+        </a>  
+    </li>
+	
+  </ul>
+
   </div>
 
-
-
-
-	<div class="row">
-
-			<div class="col s12 m4">
-			 <div class="card">
-
-			 <div class="card-image waves-effect waves-block waves-light">
-			  <img class="activator" src="img/01.jpg" >
-			</div>
-			<div class="card-content">
-			  <span class="card-title activator grey-text text-darken-4">Master Of Chemist <i class="fa fa-ellipsis-v right"></i></span>
-				  <p></p>
-			</div>
-			<div class="card-reveal">
-			  <span class="card-title grey-text text-darken-4">Master Of Chemist<i class="fa fa-close right"></i></span>
-			  <p>
-			  Download di: <br/>
-				  <a href="http://bit.ly/masterofcemist" target="_blank"><img src="img/google-play-badge.png" width="120px"></a>
-
-			  </p>
-			</div>
-
-			  </div>
-
-			</div>
-
-			<div class="col s12 m4">
-			 <div class="card">
-
-			 <div class="card-image waves-effect waves-block waves-light">
-			  <img class="activator" src="img/02.jpg" >
-			</div>
-			<div class="card-content">
-			  <span class="card-title activator grey-text text-darken-4">Niaga TV <i class="fa fa-ellipsis-v right"></i></span>
-				  <p></p>
-			</div>
-
-			<div class="card-reveal">
-			  <span class="card-title grey-text text-darken-4">Niaga TV<i class="fa fa-close right"></i></span>
-			  <p>Download di: <br/>
-				  <a href="https://play.google.com/store/apps/details?id=com.ngatvdevilmnt.niagatv" target="_blank"><img src="img/google-play-badge.png" width="120px"></a>
-
-			  </p>
-			</div>
-
-			  </div>
-
-			</div>
-
-			<div class="col s12 m4">
-			 <div class="card">
-
-			 <div class="card-image waves-effect waves-block waves-light">
-			  <img class="activator" src="img/03.jpg" >
-			</div>
-			<div class="card-content">
-			  <span class="card-title activator grey-text text-darken-4">Museum Penerangan Kominfo TV <i class="fa fa-ellipsis-v right"></i></span>
-				  <p></p>
-			</div>
-
-			<div class="card-reveal">
-			  <span class="card-title grey-text text-darken-4">Museum Penerangan Kominfo TV<i class="fa fa-close right"></i></span>
-			  <p>Download di: <br/>
-				  <a href="https://play.google.com/store/apps/details?id=com.mspnmbldevilumnt.muspenmobiletv" target="_blank"><img src="img/google-play-badge.png" width="120px"></a>
-
-			  </p>
-			</div>
-
-			  </div>
-
-			</div>
-
-
-
-
-
-		 </div>
-
-
-		 <div class="row">
-
-			<div class="col s12 m4">
-			 <div class="card">
-
-			 <div class="card-image waves-effect waves-block waves-light">
-			  <img class="activator" src="img/04.jpg" >
-			</div>
-			<div class="card-content">
-			  <span class="card-title activator grey-text text-darken-4">Snail Racer! <i class="fa fa-ellipsis-v right"></i></span>
-				  <p></p>
-			</div>
-			<div class="card-reveal">
-			  <span class="card-title grey-text text-darken-4">Snail Racer!<i class="fa fa-close right"></i></span>
-			  <p>
-			  Download di: <br/>
-				  <a href="https://play.google.com/store/apps/details?id=com.diosgrafis.snailracer" target="_blank"><img src="img/google-play-badge.png" width="120px"></a>
-
-			  </p>
-			</div>
-
-			  </div>
-
-			</div>
-
-			<div class="col s12 m4">
-			 <div class="card">
-
-			 <div class="card-image waves-effect waves-block waves-light">
-			  <img class="activator" src="img/05.jpg" >
-			</div>
-			<div class="card-content">
-			  <span class="card-title activator grey-text text-darken-4">Belajar fisika : Cahaya <i class="fa fa-ellipsis-v right"></i></span>
-				  <p></p>
-			</div>
-
-			<div class="card-reveal">
-			  <span class="card-title grey-text text-darken-4">Belajar fisika : Cahaya<i class="fa fa-close right"></i></span>
-			  <p>Download di: <br/>
-				  <a href="https://play.google.com/store/apps/details?id=com.diosgrafis.belfiscahaya" target="_blank"><img src="img/google-play-badge.png" width="120px"></a>
-
-			  </p>
-			</div>
-
-			  </div>
-
-			</div>
-
-			<div class="col s12 m4">
-			 <div class="card">
-
-			 <div class="card-image waves-effect waves-block waves-light">
-			  <img class="activator" src="img/06.jpg" >
-			</div>
-			<div class="card-content">
-			  <span class="card-title activator grey-text text-darken-4">Sejarah Penjajahan Jepang Indonesia<i class="fa fa-ellipsis-v right"></i></span>
-				  <p></p>
-			</div>
-
-			<div class="card-reveal">
-			  <span class="card-title grey-text text-darken-4">Sejarah Penjajahan Jepang Indonesia<i class="fa fa-close right"></i></span>
-			  <p>Download di: <br/>
-				  <a href="https://play.google.com/store/apps/details?id=com.diosgrafis.sjrhpp" target="_blank"><img src="img/google-play-badge.png" width="120px"></a>
-			  </p>
-			</div>
-
-			  </div>
-			</div>
-
-		 </div>
-
-
-		 <div class="row">
-
-			<div class="col s12 m4">
-			 <div class="card">
-
-			 <div class="card-image waves-effect waves-block waves-light">
-			  <img class="activator" src="img/07.jpg" >
-			</div>
-			<div class="card-content">
-			  <span class="card-title activator grey-text text-darken-4">Sejarah Islam Indonesia <i class="fa fa-ellipsis-v right"></i></span>
-				  <p></p>
-			</div>
-			<div class="card-reveal">
-			  <span class="card-title grey-text text-darken-4">Sejarah Islam Indonesia<i class="fa fa-close right"></i></span>
-			  <p>
-			  Download di: <br/>
-				  <a href="https://play.google.com/store/apps/details?id=com.diosgrafis.sjrhii" target="_blank"><img src="img/google-play-badge.png" width="120px"></a>
-
-			  </p>
-			</div>
-
-			  </div>
-
-			</div>
-
-			<div class="col s12 m4">
-			 <div class="card">
-
-			 <div class="card-image waves-effect waves-block waves-light">
-			  <img class="activator" src="img/08.jpg" >
-			</div>
-			<div class="card-content">
-			  <span class="card-title activator grey-text text-darken-4">Sejarah Pergerakan Indonesia <i class="fa fa-ellipsis-v right"></i></span>
-				  <p></p>
-			</div>
-
-			<div class="card-reveal">
-			  <span class="card-title grey-text text-darken-4">Sejarah Pergerakan Indonesia<i class="fa fa-close right"></i></span>
-			  <p>Download di: <br/>
-				  <a href="https://play.google.com/store/apps/details?id=com.diosgrafis.sjrhpi" target="_blank"><img src="img/google-play-badge.png" width="120px"></a>
-
-			  </p>
-			</div>
-
-			  </div>
-
-			</div>
-
-			<div class="col s12 m4">
-			 <div class="card">
-
-			 <div class="card-image waves-effect waves-block waves-light">
-			  <img class="activator" src="img/09.jpg" >
-			</div>
-			<div class="card-content">
-			  <span class="card-title activator grey-text text-darken-4">Sejarah KolonialIndonesia <i class="fa fa-ellipsis-v right"></i></span>
-				  <p></p>
-			</div>
-
-			<div class="card-reveal">
-			  <span class="card-title grey-text text-darken-4"> Sejarah KolonialIndonesia<i class="fa fa-close right"></i></span>
-			  <p>Download di: <br/>
-				  <a href="https://play.google.com/store/apps/details?id=com.diosgrafis.sejarahkolonial" target="_blank"><img src="img/google-play-badge.png" width="120px"></a>
-			  </p>
-			</div>
-
-			  </div>
-			</div>
-
-		 </div>
-
-		 <!-- Baris empat -->
-		 <div class="row">
-
-			<div class="col s12 m4">
-			 <div class="card">
-
-			 <div class="card-image waves-effect waves-block waves-light">
-			  <img class="activator" src="img/10.jpg" >
-			</div>
-			<div class="card-content">
-			  <span class="card-title activator grey-text text-darken-4">Stinky Tap <i class="fa fa-ellipsis-v right"></i></span>
-				  <p></p>
-			</div>
-			<div class="card-reveal">
-			  <span class="card-title grey-text text-darken-4">Stinky Tap<i class="fa fa-close right"></i></span>
-			  <p>
-			  Download di: <br/>
-				  <a href="http://bit.ly/1nVeZvy" target="_blank"><img src="img/google-play-badge.png" width="120px"></a>
-
-			  </p>
-			</div>
-
-			  </div>
-
-			</div>
-
-			<div class="col s12 m4">
-			 <div class="card">
-
-			 <div class="card-image waves-effect waves-block waves-light">
-			  <img class="activator" src="img/11.jpg" >
-			</div>
-			<div class="card-content">
-			  <span class="card-title activator grey-text text-darken-4">Sejarah Hindu Budha Indonesia <i class="fa fa-ellipsis-v right"></i></span>
-				  <p></p>
-			</div>
-
-			<div class="card-reveal">
-			  <span class="card-title grey-text text-darken-4">Sejarah Hindu Budha Indonesia<i class="fa fa-close right"></i></span>
-			  <p>Download di: <br/>
-				  <a href="https://play.google.com/store/apps/details?id=com.diosgrafis.sejarahhindubudha" target="_blank"><img src="img/google-play-badge.png" width="120px"></a>
-
-			  </p>
-			</div>
-
-			  </div>
-
-			</div>
-
-			<div class="col s12 m4">
-			 <div class="card">
-
-			 <div class="card-image waves-effect waves-block waves-light">
-			  <img class="activator" src="img/12.jpg" >
-			</div>
-			<div class="card-content">
-			  <span class="card-title activator grey-text text-darken-4"> Explore Asean<i class="fa fa-ellipsis-v right"></i></span>
-				  <p></p>
-			</div>
-
-			<div class="card-reveal">
-			  <span class="card-title grey-text text-darken-4"> Explore Asean<i class="fa fa-close right"></i></span>
-			  <p>Download di: <br/>
-				  <a href="https://play.google.com/store/apps/details?id=com.diosgrafis.exploreasean" target="_blank"><img src="img/google-play-badge.png" width="120px"></a>
-			  </p>
-			</div>
-
-			  </div>
-			</div>
-
-		 </div>
-
-
-	</div>
-
-
-		</body>
-
-  </html>
+  <div id="ajax-sidebar"></div>
+
+  <!--Footer-->
+
+  <footer>
+
+    <div class="footer-margin">
+      <div class="social-footer">
+        <a href="https://play.google.com/store/search?q=diosgrafis&c=apps"><i class="fab fa-google-play "></i></a>
+        <a href="https://www.facebook.com/odiliohafidh"><i class="fab fa-facebook"></i></a>
+        <a href="https://github.com/odiliohafidh"><i class="fab fa-github"></i></a>
+      
+      </div>     
+      <div class="copyright">© Copyright 2018 Made by Thomsoon.com | odiliohafidh.github.io . All Rights Reserved.</div>
+      
+
+    
+    </div>
+
+
+  </footer>
+
+
+
+<!--Scripts-->
+
+  <script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/modernizr.custom.42534.js" type="text/javascript"></script>
+  <script src="js/jquery.waitforimages.js" type="text/javascript"></script>
+  <script src="js/typed.js" type="text/javascript"></script>
+  <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>  
+  <script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>    
+  <script src="js/jquery.jkit.1.2.16.min.js"></script>
+ 
+  <script src="js/script.js" type="text/javascript"></script>
+  
+	<script>
+    $('#button').on('click', function() {
+      $( ".opacity-nav" ).fadeToggle( "slow", "linear" );
+    // Animation complete.
+    });
+	
+	$('.opacity-nav').on('click', function() {
+      //$( ".opacity-nav" ).remove();
+	  $( ".opacity-nav" ).fadeOut( "slow", "linear" );
+    // Animation complete.
+    });
+  </script>
+
+
+</body>
+</html>
